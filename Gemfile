@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-
+gem "puma"
 # A DSL for quickly creating web applications
 # https://github.com/sinatra/sinatra
 gem "sinatra", "~> 2.1"
@@ -44,5 +44,3 @@ group :test do
   gem "rack-test", "~> 1.1"
   gem "rspec-json_expectations", "~> 2.2"
 end
-
-
